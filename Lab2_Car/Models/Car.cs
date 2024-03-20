@@ -1,6 +1,6 @@
 ﻿namespace Lab2_Car.Models
 {
-    public enum EngineTypes
+    public enum EngineType
     {
         Petrol, Diesel, Hybrid
     }
@@ -9,7 +9,7 @@
     {
         public string Make { get; set; }
         public string Model { get; set; }
-        public EngineTypes Type { get; set; }
+        public EngineType Type { get; set; }
         public string EngineSize { get; set; }
     }
 }
